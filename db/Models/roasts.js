@@ -9,6 +9,6 @@ const roastSchema = new Schema({
   ratioB: { type: Number, required: true },
 });
 
-const Roast = mongoose.models.Roasts || mongoose.model("Roasts", roastSchema);
+const Roast = mongoose.models.Roast || mongoose.model("Roast", roastSchema);
 
 export default Roast;
