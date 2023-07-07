@@ -1,14 +1,12 @@
-/* import useSWR from "swr"; */
-import { useSWRConfig } from "swr";
+import useSWR from "swr";
+/* import { useSWRConfig } from "swr"; */
 export default function Form() {
-  const { mutate } = useSWRConfig("/api/Coffee");
+  const { mutate } = useSWR("/api/Coffee");
   async function handleSubmit(event) {
     event.preventDefault();
 
     const formData = new FormData(event.target);
     const data = Object.fromEntries(formData);
-
-    console.log(data);
 
     const res = await fetch("api/Coffee/", {
       method: "POST",
@@ -16,6 +14,7 @@ export default function Form() {
       body: JSON.stringify(data),
     });
     if (res.ok) {
+      console.log("mutate ok");
       mutate();
     }
   }
