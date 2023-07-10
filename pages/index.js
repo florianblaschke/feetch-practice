@@ -1,11 +1,10 @@
 import useSWR from "swr";
 import Card from "@/components/Card";
 import Form from "@/components/Form";
+import Link from "next/link";
 
 export default function Home() {
-  const { data, error, isLoading, isValidating } = useSWR("/api/Coffee");
-
-  console.log(data /* , error, isLoading, isValidating */);
+  const { data, isLoading } = useSWR("/api/Coffee");
 
   if (isLoading) {
     return <h1>...isLoading</h1>;
@@ -14,13 +13,14 @@ export default function Home() {
     <>
       <h1>Hello Coffee-Nerd</h1>
       {data.map((cof) => (
-        <Card
-          key={cof._id}
-          name={cof.name}
-          type={cof.type}
-          ratioA={cof.ratioA}
-          ratioB={cof.ratioB}
-        />
+        <Link href={`/${cof._id}`} key={cof._id}>
+          <Card
+            name={cof.name}
+            type={cof.type}
+            ratioA={cof.ratioA}
+            ratioB={cof.ratioB}
+          />
+        </Link>
       ))}
       <Form />
     </>

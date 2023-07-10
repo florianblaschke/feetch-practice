@@ -3,11 +3,15 @@ import Roast from "@/db/Models/roasts";
 
 export default async function handler(req, res) {
   await dbConnect();
-  const roast = await Roast.findById(req.query.id);
+  const { id } = req.query;
 
-  if (!roast) {
-    res.status(404).json({ status: "not found" });
+  if (req.method === "GET") {
+    const roast = await Roast.findById(id);
+
+    if (!roast) {
+      res.status(404).json({ status: "not found" });
+    }
+
+    return res.status(200).json(roast);
   }
-
-  res.status(200).json(roast);
 }
