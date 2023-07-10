@@ -12,8 +12,8 @@ export default async function handler(req, res) {
   }
   if (req.method === "POST") {
     try {
-      const roast = req.body;
-      const newRoast = new Roast(roast);
+      const newRoast = req.body;
+      await Roast.create(newRoast);
       return res.status(201).json({ status: "New Roast created" });
     } catch (er) {
       console.log(er);
