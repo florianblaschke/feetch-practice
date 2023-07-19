@@ -4,11 +4,14 @@ const { Schema } = mongoose;
 
 const roastSchema = new Schema({
   name: { type: String, required: true },
-  type: { type: String, required: true },
-  ratioA: { type: Number, required: true },
-  ratioB: { type: Number, required: true },
+  roaster: { type: String, required: true },
+  provenance: { type: String, required: true },
+  arabica: { type: Number, required: true },
+  robusta: { type: Number, required: true },
+  level: { type: String, required: false },
+  score: [{ type: Number }],
 });
 
-const Roast = mongoose.models.Roasts || mongoose.model("Roasts", roastSchema);
+const Roast = mongoose.models.Roast || mongoose.model("Roast", roastSchema);
 
 export default Roast;

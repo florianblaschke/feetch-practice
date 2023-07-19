@@ -1,0 +1,178 @@
+[
+  {
+    "_id": {
+      "$oid": "64ae6703b179b94d229ba517"
+    },
+    "name": "Fazenda Matão",
+    "roaster": "Good Karma",
+    "origin": "Brasilien",
+    "arabica": 100,
+    "robusta": 0,
+    "level": "medium"
+  },
+  {
+    "_id": {
+      "$oid": "64ae6703b179b94d229ba518"
+    },
+    "name": "Günter",
+    "roaster": "Günter Coffee Roasters",
+    "origin": "Brasilien",
+    "arabica": 100,
+    "robusta": 0,
+    "level": "medium"
+  },
+  {
+    "_id": {
+      "$oid": "64ae6703b179b94d229ba519"
+    },
+    "name": "Mexico Finca Santa Anita",
+    "roaster": "CULTD- Coffee Unlimited",
+    "origin": "Mexico",
+    "arabica": 0,
+    "robusta": 100,
+    "level": "dark"
+  },
+  {
+    "_id": {
+      "$oid": "64ae6703b179b94d229ba51a"
+    },
+    "name": "Apas",
+    "roaster": "Kaffemacher",
+    "origin": "Brasilien",
+    "arabica": 100,
+    "robusta": 0,
+    "level": "light"
+  },
+  {
+    "_id": {
+      "$oid": "64ae6703b179b94d229ba51b"
+    },
+    "name": "Pure Passion",
+    "roaster": "Moema-Espresso",
+    "origin": "Brasilien",
+    "arabica": 100,
+    "robusta": 0,
+    "level": "light"
+  },
+  {
+    "_id": {
+      "$oid": "64ae6703b179b94d229ba51c"
+    },
+    "name": "Samba Flavour",
+    "roaster": "Moema-Espresso",
+    "origin": "Brasilien",
+    "arabica": 70,
+    "robusta": 30,
+    "level": "medium"
+  },
+  {
+    "_id": {
+      "$oid": "64ae6703b179b94d229ba51d"
+    },
+    "name": "Monsooned Gold Bio",
+    "roaster": "Annas Kaffeerösterei",
+    "origin": "Indien",
+    "arabica": 100,
+    "robusta": 0,
+    "level": "light"
+  },
+  {
+    "_id": {
+      "$oid": "64ae6703b179b94d229ba51e"
+    },
+    "name": "Yin und Yang",
+    "roaster": "Annas Kaffeerösterei",
+    "origin": "Indien",
+    "arabica": 50,
+    "robusta": 50,
+    "level": "dark"
+  },
+  {
+    "_id": {
+      "$oid": "64ae6703b179b94d229ba51f"
+    },
+    "name": "Entkoffeinierter Honduras Bio",
+    "roaster": "Annas Kaffeerösterei",
+    "origin": "Honduras",
+    "arabica": 100,
+    "robusta": 0,
+    "level": "medium"
+  },
+  {
+    "_id": {
+      "$oid": "64ae6703b179b94d229ba520"
+    },
+    "name": "Nicaragua Maragogype",
+    "roaster": "Annas Kaffeerösterei",
+    "origin": "Nicaragua",
+    "arabica": 100,
+    "robusta": 0,
+    "level": "medium"
+  },
+  {
+    "_id": {
+      "$oid": "64ae6703b179b94d229ba521"
+    },
+    "name": "Black Domina",
+    "roaster": "Annas Kaffeerösterei",
+    "origin": "Kolumbien",
+    "arabica": 100,
+    "robusta": 0,
+    "level": "dark"
+  },
+  {
+    "_id": {
+      "$oid": "64ae7124b179b94d229ba522"
+    },
+    "name": "Brazil - Sítio Soledade",
+    "roaster": "BlackBird Coffee",
+    "origin": "Brasilien",
+    "arabica": 100,
+    "robusta": 0,
+    "level": "dark"
+  },
+  {
+    "_id": {
+      "$oid": "64ae7124b179b94d229ba523"
+    },
+    "name": "Treibstoff",
+    "roaster": "BlackBird Coffee",
+    "origin": "Brasilien",
+    "arabica": 100,
+    "robusta": 0,
+    "level": "dark"
+  },
+  {
+    "_id": {
+      "$oid": "64ae7124b179b94d229ba524"
+    },
+    "name": "Colombia",
+    "roaster": "BlackBird Coffee",
+    "origin": "Kolumbien",
+    "arabica": 100,
+    "robusta": 0,
+    "level": "medium"
+  },
+  {
+    "_id": {
+      "$oid": "64ae7124b179b94d229ba525"
+    },
+    "name": "Colombia - Esperanza Decaf",
+    "roaster": "BlackBird Coffee",
+    "origin": "Kolumbien",
+    "arabica": 100,
+    "robusta": 0,
+    "level": "medium"
+  },
+  {
+    "_id": {
+      "$oid": "64ae7124b179b94d229ba526"
+    },
+    "name": "La Veranera",
+    "roaster": "BlackBird Coffee",
+    "origin": "Kolumbien",
+    "arabica": 100,
+    "robusta": 0,
+    "level": "medium"
+  }
+]
