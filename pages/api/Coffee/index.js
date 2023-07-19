@@ -16,7 +16,6 @@ export default async function handler(req, res) {
       await Roast.create(newRoast);
       return res.status(201).json({ status: "New Roast created" });
     } catch (er) {
-      console.log(er);
       return res.status(400).json({ error: error.message });
     }
   }

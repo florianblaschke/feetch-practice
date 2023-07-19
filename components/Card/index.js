@@ -1,10 +1,9 @@
-export default function Card({ name, type, ratioA, ratioB }) {
+export default function Card({ name, roaster, score }) {
   return (
     <div>
       <h2>{name}</h2>
-      <p>{type}</p>
-      <p>{ratioA}</p>
-      <p>{ratioB}</p>
+      <p>{roaster}</p>
+      <p>{score}</p>
     </div>
   );
 }
